@@ -17,7 +17,7 @@ while True:
     
     1: Determinarea salariului.
     2: Determinarea ariei unui triunghi.
-    3: Determinarea tipului unui caracter introdus.
+    3: Determinarea tipului unui caracter introdus. !!!(Progressing)!!!
     4: Suma primelor (n) numere naturale.
     5: Produsul numerelor pare introduse.
     
@@ -31,10 +31,11 @@ while True:
     try:
         programs[exercise_nr]()
     except Exception as e:
-        raise e
+        # raise e
         print('''
         ___________________________________________________________________________
         A intervenit o eroare in program, incercati din nou!
         ___________________________________________________________________________
         ''')
+
         continue
